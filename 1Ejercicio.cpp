@@ -2,14 +2,14 @@
 using namespace std;
 
 int main() {
-    int numero;
+    int n;
 
-    cout << "Ingrese un numero: "; cin >> numero;
+    cout << "Ingrese un numero: "; cin >> n;
 
-    while (numero >= 0) {
-        cout << "El numero ingresado es: " << numero << endl;
+    while (n >= 0) {
+        cout << "El numero ingresado es: " << n<< endl;
         
-        cout << "Ingrese otro numero (un numero negativo para terminar): "; cin >> numero;
+        cout << "Ingrese otro numero (un numero negativo para terminar): "; cin >> n;
     }
 
     cout << "Ha ingresado un numero negativo. Fin del programa." << endl;
