@@ -4,14 +4,14 @@
 using namespace std;
 
 int main() {
-    int n;
+    int p;
 
-    cout << "Ingrese un numero: "; cin >> n;
+    cout << "Ingrese un numero: "; cin >> p;
 
-    while (n >= 0) {
-        cout << "El numero ingresado es: " << n<< endl;
+    while (p >= 0) {
+        cout << "El numero ingresado es: " << p<< endl;
         
-        cout << "Ingrese otro numero (un numero negativo para terminar): "; cin >> n;
+        cout << "Ingrese otro numero (un numero negativo para terminar): "; cin >> p;
     }
 
     cout << "Ha ingresado un numero negativo. Fin del programa." << endl;
