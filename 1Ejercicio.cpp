@@ -1,3 +1,5 @@
+/*Leer números por teclado hasta introducir uno negativo*/
+
 #include <iostream>
 using namespace std;
 
