@@ -6,15 +6,15 @@ using namespace std;
 int main() {
     int p;
 
-    cout << "Ingrese un numero: "; cin >> p;
+    cout << "Ingrese su numero: "; cin >> p;
 
     while (p >= 0) {
-        cout << "El numero ingresado es: " << p<< endl;
+        cout << "El numero que escogido es: " << p<< endl;
         
-        cout << "Ingrese otro numero (un numero negativo para terminar): "; cin >> p;
+        cout << "Ingrese otro numero (un numero negativo para que finalize el programa): "; cin >> p;
     }
 
-    cout << "Ha ingresado un numero negativo. Fin del programa." << endl;
+    cout << "Ha ingresado un numero negativo. Se ha finalizado el programa." << endl;
 
     return 0;
 }
